@@ -8,24 +8,42 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 class="titulo">código secreto</h1>
+  <br><br>
+  
+  <h1 class="titulo" itemprop="headline" style="text-align: center;">Código Secreto</h1>
+
+  <br><br><br>
 
   <main class="main">
     <section class="form box">
       <form action="">
-        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+        <!--- <label for="input-texto">Sólo ingrese letras minúsculas, sin acento</label> --->
+        <h2 id="">Mensaje original:</h2>
+        <br>
         <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
-        <input class="btn" type="submit" value="encriptar!" id="btn-encriptar">
-        <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
+        <br>
+        <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+        <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
       </form>
     </section>
   
     <section class="msg box">
-      <h2 id="">Mensaje encriptada:</h2>
+      <h2 id="">Mensaje procesado:</h2>
+      <br>
       <input class="text-input" type="text" id="msg"></input>
-      <input class="btn" type="submit" value="copiar" id="btn-copy">
+      <br>
+      <input class="btn" type="submit" value="Copiar" id="btn-copy">
     </section>
   </main>
+
+  <br><br><br>
+
+  <div class="footer">
+    <!--- <br><br><br> --->
+    <h4>Hecho por Gil Estéfano Rodríguez Rivera</h4>
+    <br>
+    <p>Revisa el repositorio de <a href="https://github.com/gilesitorr/Alura_Challenge_Semanas_1y2">GitHub</a></p>
+  </div>
 
   <script src="script.js"></script>
 </body>
